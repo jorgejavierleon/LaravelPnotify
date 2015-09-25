@@ -1,0 +1,4 @@
+suites:
+  library_suite:
+    namespace: Jleon\LaravelPnotify
+    psr4_prefix: Jleon\LaravelPnotify

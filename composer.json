@@ -1,0 +1,18 @@
+{
+    "name": "jleon/laravelPnotify",
+    "autoload": {
+        "psr-4": {
+            "Jleon\\LaravelPnotify\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "phpspec/phpspec": "~2.0",
+        "benconstable/phpspec-laravel": "~2.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jleon\\LaravelPnotify\\Tests\\": "tests/"
+        }
+    }
+}
