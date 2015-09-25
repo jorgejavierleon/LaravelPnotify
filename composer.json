@@ -1,5 +1,13 @@
 {
-    "name": "jleon/laravelPnotify",
+    "name": "jorgejavierleon/laravelpnotify",
+    "description": "Laravel 5 implementation for flash messages with Pnotify",
+    "keywords": ["Laravel", "Pnotify", "flash", "notifications"],
+    "Authors": [
+        {
+            "name": "Jorge Javier León",
+            "email": "jorgejavierleon@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Jleon\\LaravelPnotify\\": "src/"
