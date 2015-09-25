@@ -26,7 +26,7 @@ Begin by installing this package through Composer.
 ```js
 {
     "require": {
-        "jorgejavierleon/laravelPnotify": "dev-master"
+        "jorgejavierleon/laravelPnotify": "~1.0"
     }
 }
 ```
