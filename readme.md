@@ -1,5 +1,7 @@
 # Notifications message for laravel 5 with Pnotify
 
+[![Build Status](https://travis-ci.org/jorgejavierleon/LaravelPnotify.svg?branch=master)](https://travis-ci.org/jorgejavierleon/LaravelPnotify)
+
 This package give you a Laravel 5 implementation for flash messages or notifications with [Pnotify](http://sciactive.github.io/pnotify/) javascript library.
 
 Within your controllers you can use the Facade and get the flash message in the next request:
