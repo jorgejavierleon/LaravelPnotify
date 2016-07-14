@@ -1,6 +1,8 @@
 # Notifications message for laravel 5 with Pnotify
 
 [![Build Status](https://travis-ci.org/jorgejavierleon/LaravelPnotify.svg?branch=1.0)](https://travis-ci.org/jorgejavierleon/LaravelPnotify)
+[![Latest Stable Version](https://poser.pugx.org/jorgejavierleon/laravelpnotify/v/stable)](https://packagist.org/packages/jorgejavierleon/laravelpnotify)
+[![Total Downloads](https://poser.pugx.org/jorgejavierleon/laravelpnotify/downloads)](https://packagist.org/packages/jorgejavierleon/laravelpnotify)
 
 This package give you a Laravel 5 implementation for flash messages or notifications with [Pnotify](http://sciactive.github.io/pnotify/) javascript library.
 
