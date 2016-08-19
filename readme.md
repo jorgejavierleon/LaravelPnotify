@@ -275,3 +275,32 @@ If you need to override some defaults only for the next notice, use the override
         'animate_speed' => 'normal',
     ])
 ```
+
+
+## Testing
+
+For those of you who are doing aceptance testing and don't want to mock the notifier class, I put together a trait with some 
+helper methods for testing the notifications messages in the larvel session. When using the trait you will be able to run assertions 
+like `$this->seeNotificationType('success')` or `$this->dontSeeNotification()`.
+
+To get the trait go to [my gist page](https://gist.github.com/jorgejavierleon/96fd4bebf30324608c8a85aa15ef85a1), copy it to you helpers test folder and use like any other trait
+
+```php
+    class PagesControllerTest extends TestCase
+    {
+        use NotifiersHelpers;
+    
+        /**
+         * @return void
+         */
+        public function testHomePageGreetsTheUser()
+        {
+            $this->get('/home')
+                ->seeNotificationType('success')
+                ->seeNotificationBody('Hello There!');
+        }
+    }
+```
+
+  
+  
